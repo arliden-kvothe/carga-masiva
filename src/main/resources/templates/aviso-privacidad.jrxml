@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="aviso-privacidad" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="ea20f892-ce9b-4ea3-a6d0-d66285672d51">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="952"/>
+	<parameter name="cobertura_documentos_img" class="java.awt.Image">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="553" height="12" uuid="ee0953e6-42c0-43ca-a237-1407e7d8df51"/>
+				<textElement textAlignment="Center" markup="html">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<text><![CDATA[<b>PRINCIPALES CLÁUSULAS</b>
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="12" width="553" height="12" uuid="4d094daf-34a4-482e-8a24-a2e93bff452a"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DEFINICIONES.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="24" width="553" height="700" uuid="9ae0f781-d841-4a49-a0d7-57fb31cc076c"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[<b>Asegurado Titular:</b> Cada persona que forme parte del grupo asegurado, firme su consentimiento certificado individual y esté incluido en el reporte formulado por el Contratante.<br>
+<b>Accidente:</b> Acontecimiento originado por una causa externa, súbita, violenta y fortuita, que produce la muerte o lesiones corporales en la persona del Asegurado, por lo tanto no se considerará accidente a las lesiones corporales o a la muerte provocada intencionalmente por el Asegurado.<br>
+<b>Agencias:</b> Centros de Distribución del Contratante.<br>
+<b>Beneficiario:</b> Para la cobertura de fallecimiento será la persona designada por el Asegurado Titular en el Consentimiento Certificado Individual, la que reciba la suma asegurada contratada. Para las coberturas de Invalidez Total y Permanente por Accidente, Indemnización Diaria por Hospitalización y Graves Enfermedades será el asegurado titular. Para la cobertura de Gastos Funerarios será la persona designada por el Asegurado Titular en su Consentimiento Certificado Individual la que reciba la suma asegurada. En caso del fallecimiento de alguno de los familiares dependientes del Asegurado Titular, La Compañía pagará al Asegurado Titular la suma asegurada contratada para Gastos Funerarios; misma que estará topada a 4 eventos por familia asegurada al año. Los montos de suma asegurada contratados para cada cobertura están ligados a los reportes mensuales que el Contratante realice, el Consentimiento Certificado deberá estar debidamente firmado por asegurado titular.<br>
+<b>Contrato:</b> Forman parte de este contrato la solicitud de seguro, la póliza, los endosos, los consentimientos certificados individuales y el registro de asegurados, los cuales constituyen prueba del contrato de seguro celebrado entre el Contratante y La Compañía.<br>
+<b>Contratante:</b> Es aquella persona moral, que ha solicitado la celebración del contrato de seguro para terceras personas y que además se compromete a realizar el pago de las primas y recabar la información necesaria para el aseguramiento.<br>
+<b>Exclusiones:</b> Causas o situaciones que la póliza del seguro no cubre.<br>
+<b>Familia Asegurada:</b> Serán considerados como Familiares dependientes del Asegurado Titular las siguientes personas: a) Su cónyuge o concubina (rio); b) Sus hijos solteros. Los miembros indicados como familiares dependientes podrán ser registrados por el Asegurado Titular en su Consentimiento Certificado Individual.<br>
+<b>Hospital:</b> Institución legalmente autorizada por la Secretaría de Salud correspondiente, para el diagnóstico, la atención médica y quirúrgica de personas lesionadas o enfermas, que cuente con salas de intervenciones quirúrgicas y con médicos y enfermeras certificados, las 24 horas del día.<br>
+<b>Médico:</b> Persona que ejerce la medicina, titulado y legalmente autorizado para el ejercicio de su profesión.<br>
+<b>Prima:</b> La prima total del grupo es la suma de las primas correspondientes a cada cobertura por los miembros del grupo.<br>
+<b>Siniestro:</b> El fallecimiento del Asegurado Titular o de cualquiera de los miembros de la familia asegurada; la invalidez total y permanente del Asegurado Titular; la hospitalización del Asegurado Titular o de cualquiera de los miembros de la familia asegurada; o el primer diagnóstico del Asegurado Titular por alguna de las enfermedades graves cubiertas por el seguro.<br>
+<b>Suma Asegurada o indemnización:</b> Cantidad de dinero que La Compañía paga al(los) beneficiario(s) en caso de determinar procedente la reclamación. La suma asegurada será pactada entre EL CONTRATANTE y LA COMPAÑÍA.<br>
+<b>CONTRATO.</b> Forman parte de este contrato, la solicitud de seguro, la carátula de póliza que se anexa a este contrato, los consentimientos certificados individuales, el registro de asegurados y los endosos, los cuales constituyen prueba del contrato de seguro celebrado entre “El Contratante” y “La Compañía”. Las partes están de acuerdo en que la administración de la póliza sea por conducto de ParaLife de México, S.A. de C.V., en lo sucesivo “ParaLife”, sin perjuicio que la única responsable ante EL CONTRATANTE y los asegurados, por el Seguro de Vida Grupo “Producto Genérico Paquete” contratado, es LA COMPAÑÍA.<br>
+<b>DISPUTABILIDAD.</b> Este contrato, dentro del primer año de su vigencia, siempre será disputable por omisión o inexacta declaración de los hechos necesarios que proporcione “El Contratante” o asegurado para la apreciación del riesgo. Tratándose de miembros de nuevo ingreso al grupo asegurado, el término para hacer uso del derecho a que se refiere el párrafo anterior; se contará a partir de la fecha en que quedó asegurado.<br>
+<b>SUICIDIO.</b> En caso de muerte por suicidio, ocurrido dentro de los dos primeros años de la vigencia del contrato y del respectivo consentimiento certificado individual de seguro, cualquiera que haya sido su causa y el estado mental o físico del asegurado, “La Compañía” solamente devolverá la prima no devengada de la última prima pagada respecto del miembro del grupo asegurado al cual corresponda el consentimiento certificado individual. Este será el pago total que hará “La Compañía” por concepto del seguro del expresado miembro.<br>
+<b>INGRESOS AL GRUPO ASEGURADO.</b> Las personas que ingresen al grupo asegurado con posterioridad a la celebración del contrato y que hayan dado su consentimiento para ser asegurados dentro de los treinta días naturales siguientes a su ingreso, quedarán aseguradas con las mismas condiciones en que fue contratada la póliza, desde el momento en que adquirieron las características para formar parte del grupo de que se trate.<br>
+<b>BAJAS EN EL GRUPO ASEGURADO.</b> Las personas que se separen definitivamente del grupo asegurado, dejarán de estar aseguradas desde el momento de su separación, quedando sin validez alguna el Consentimiento Certificado Individual expedido. En este caso, “La Compañía” restituirá la parte de la prima neta no devengada de dichos integrantes calculada en días exactos, a quienes la hayan aportado, en la proporción correspondiente.<br>
+<b>COMPETENCIA.</b> En caso de controversia, “El Contratante”, o el asegurado y sus beneficiarios o sus causahabientes podrán hacer valer sus derechos en los términos previstos por la Ley de Protección y Defensa al Usuario de Servicios Financieros y lo dispuesto por el artículo 136 de la Ley General de Instituciones y Sociedades Mutualistas de Seguros. En caso de que “El Contratante”, o el asegurado y sus beneficiarios o sus causahabientes opten por demandar, podrán acudir ante los tribunales competentes de la jurisdicción que corresponda en cualquiera de los domicilios de las delegaciones de la Comisión Nacional para Protección y Defensa de los Usuarios de Servicios Financieros.<br>
+<b>COMUNICACIONES.</b> Todas las comunicaciones, solicitudes o avisos que “El Contratante” o asegurado necesite hacer a “La Compañía”, deberá efectuarlos por escrito dirigido a sus oficinas en la Ciudad de México, D.F. o en sus oficinas en el interior de la República. Los agentes no están autorizados para recibirlos a nombre de “La Compañía”, excepto que ésta así lo indicare. Las comunicaciones de “La Compañía” para “El Contratante” o asegurado se harán en igual forma en el último domicilio que fuere conocido por “La Compañía”.<br>
+<b>PRESCRIPCIÓN.</b> Todas las acciones que se deriven de este contrato prescribirán en 5 (cinco) años tratándose de la cobertura por fallecimiento y de 2 años para el resto de las coberturas, contados desde la fecha del acontecimiento que les dio origen en los términos del Artículo 81 de la Ley Sobre el Contrato de Seguro, salvo los casos de excepción consignados en el Artículo 82 de la misma Ley. El plazo de que trata el párrafo anterior no correrá en caso de omisión, falsas o inexactas declaraciones sobre el riesgo corrido, sino desde el día en que “La Compañía” haya tenido conocimiento de él, y si se trata de la realización del siniestro, desde el día en que haya llegado a conocimiento de los interesados, quienes deberán demostrar que hasta entonces ignoraban dicha realización. En términos del artículo 68 de la Ley de Protección y Defensa al Usuario de Servicios Financieros y 84 de la Ley Sobre el Contrato de Seguro, la interposición de la reclamación ante la CONDUSEF, así como el nombramiento de peritos con motivo de la realización del Siniestro producirá la interrupción de la Prescripción, mientras que la suspensión de la Prescripción sólo procede por la interposición de la reclamación ante la Unidad Especializada de atención de consultas y reclamaciones de “La Compañía”, conforme lo dispuesto por el artículo 50-Bis de la Ley de Protección y Defensa al Usuario de Servicios Financieros.<br>
+<b>INTERESES MORATORIOS.</b> En caso de que “La Compañía”, no obstante haber recibido los documentos e información que le permita conocer el fundamento de la reclamación que le haya sido presentada, no cumpla con la obligación de pagar la indemnización, capital o renta en los términos del artículo 71 de la Ley Sobre el Contrato de Seguro, se obliga a pagar al asegurado, beneficiario o tercero dañado un interés por mora de acuerdo con lo señalado en el artículo 135 bis de la Ley General de Instituciones y Sociedades Mutualistas de Seguros.<br>
+<b>DESIGNACIÓN DE BENEFICIARIOS.</b><br>
+El(los) Beneficiario(s) de la suma asegurada establecida para cada cobertura en cada uno de los planes definidos por El Contratante, serán los clientes del Contratante personas físicas dueñas de las tiendas y sus Familiares Dependientes de acuerdo con la categoría del plan otorgado por El Contratante (Plan 20 Categoría Oro, Plan 50 Categoría Platino y Plan 1000 Categoría Diamante) y considerando además la información proporcionada en cada Consentimiento
+certificado Individual.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="26" y="715" width="527" height="65" uuid="3f5475b4-1ad7-495d-9324-38ed412c6248"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[<b>ADVERTENCIAS:</b> En el caso de que se desee nombrar beneficiarios a menores de edad, no se debe señalar a un mayor de edad como representante de los menores para efecto de que, en su representación, cobre la indemnización. Lo anterior porque las legislaciones civiles previenen la forma en que debe designarse tutores, albaceas, representantes de herederos u otros cargos similares y no consideran al Contrato de Seguro como el instrumento adecuado para tales designaciones. La designación que se hiciera de un mayor de edad como representante de menores beneficiarios, durante la minoría de edad de ellos, legalmente puede implicar que se nombra beneficiario al mayor de edad, quien en todo caso sólo tendría una obligación moral, pues la designación que se hace de beneficiarios en un contrato de seguro le concede el derecho incondicionado de disponer de la suma asegurada.]]></text>
+			</staticText>
+			<break>
+				<reportElement x="0" y="791" width="100" height="1" uuid="59d7bc23-7c36-40d4-aab9-36d1836c9990"/>
+			</break>
+		</band>
+		<band height="802">
+			<staticText>
+				<reportElement x="1" y="0" width="553" height="30" uuid="fd4c693f-d9cc-403a-8725-d35e79da8fac"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[<b>COMPROBACIÓN Y PAGO DEL SINIESTRO.</b> ParaLife auxiliará al asegurado en la formalización de las reclamaciones a la Compañía quien tiene la facultad exclusiva de determinar si el siniestro es procedente o no.<br>
+El beneficiario deberá presentar la siguiente documentación, de acuerdo con la cobertura afectada, tal y como se establece a continuación:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="343" width="553" height="38" uuid="dc281671-94f2-4b2b-9aa9-2b9f62d6c64b"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Copia del estado de cuenta con no más de tres meses de antigüedad, para verificar la Cuenta CLABE de donde se hará la trasferencia.
+Una vez que la Compañía de Seguros tenga en su poder la documentación completa iniciará el trámite de dictamen.<br>
+En caso de que el siniestro sea determinado procedente , el pago de la suma asegurada se realizará por parte de Seguros Atlas, S.A. al(os) beneficiario(s) nombrado(s) en el Consentimiento Certificado Individual, a través de transferencia bancaria con CLABE del beneficiario o a través de giro telegráfico.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="26" y="380" width="527" height="38" uuid="a41e62b4-3250-42ae-a5d6-491f197954e5"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[<b>IMPORTANTE:</b> Ante cualquier siniestro, “La Compañía” se reserva la solicitud de documentación adicional para obtener información que a su criterio
+considere necesaria para atender y dictaminar cualquier reclamación. Esto ocurrirá en el plazo de 48 horas posteriores a la recepción de la
+documentación presentada inicialmente, y será solicitada al “Contratante” por medio de ParaLife.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="408" width="553" height="12" uuid="d2fce590-7198-4b9d-bd7d-f0f339d0ce87"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[EXCLUSIONES. Este seguro no cubre el fallecimiento del asegurado ocurrido por cualquiera de las siguientes causas:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="645" width="553" height="111" uuid="24261ef1-e1b7-435e-bece-68d3fb4d5702"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[<b>AVISO DE PRIVACIDAD.</b> En cumplimiento con lo dispuesto por la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, Seguros Atlas, S.A. con domicilio en Paseo de los Tamarindos No. 60- PB, Col. Bosques de las Lomas, 05120 México, D.F. Tel.: (55)9177-50-00, hace de su conocimiento que sus datos personales, incluso los sensibles y los patrimoniales o financieros recabados, que se recaben o generados con motivo de la relación jurídica que tengamos celebrada, o que en su caso, se celebre, se tratarán para todos los fines vinculados con dicha relación, tales como: identificación, operación, administración, análisis, ofrecimiento y promoción de productos y servicios y/o prospección comercial, así como para cumplir las obligaciones derivadas de tal relación y otros fines compatibles o análogos, quedando convenido que Usted acepta la transferencia que pudiera realizarse a Terceros Nacionales o Extranjeros.<br>
+Para mantener el uso y divulgación de sus datos, mantendremos políticas y procedimientos de seguridad y confidencialidad.<br>
+El ejercicio de los derechos de acceso, rectificación, cancelación, oposición -a partir del 6 de enero de 2012 y la revocación del consentimiento deberá realizarse por escrito en la dirección citada.<br>
+El presente aviso, así como sus modificaciones estarán a su disposición en la página www.segurosatlas.com.mx, o a través de comunicados colocados en nuestras sucursales o informados mediante cualquier medio de comunicación que tengamos con Usted.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="14" y="418" width="539" height="12" uuid="18f885f1-4943-4865-9af4-f6b6d0a0edef"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Para la cobertura básica por Fallecimiento y la cobertura de Gastos Funerarios (GF):]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="14" y="428" width="539" height="85" uuid="96416635-b99a-4c40-8c78-1b851e6559d2"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[-&nbsp;&nbsp;&nbsp;&nbsp;Suicidio, aun cuando se cometa en estado de enajenación mental, si éste ocurre dentro de los dos primeros años de la vigencia continúa de la póliza de seguro. La Compañía solamente devolverá la prima no devengada respecto del miembro del grupo asegurado al cual corresponda el consentimiento certificado individual, siendo éste el pago total que se hará por concepto del seguro del expresado miembro. En caso de rehabilitación, el plazo de dos años se contará a partir de la fecha en que ésta sea aceptada por la aseguradora.<br>
+-&nbsp;&nbsp;&nbsp;&nbsp;Fallecimientos ocurridos en actos delictivos de carácter intencional, cometidos por el asegurado o por cualquier miembro de la familia asegurada.<br>
+-&nbsp;&nbsp;&nbsp;&nbsp;Para la cobertura de fallecimiento, en términos del artículo 196 de la Ley Sobre el Contrato de Seguro, el (los) beneficiario(s) perderá todos sus derechos si atenta injustamente contra la persona del asegurado. Si la muerte de la persona asegurada es causada injustamente por quien celebró el contrato, el seguro será ineficaz, pero los herederos del asegurado tendrán derecho a la reserva matemática.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="14" y="502" width="539" height="12" uuid="685c943a-ac54-41e5-abab-9dce6284bde7"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Para la cobertura de Indemnización Diaria por Hospitalización (IDH):]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="512" width="539" height="12" uuid="1fb15e0e-937a-4fa6-bf20-942ff747b73c"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[-&nbsp;&nbsp;&nbsp;&nbsp;Nacimiento, embarazo, cualquier tipo de aborto.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="522" width="539" height="12" uuid="30e8e011-19fe-45c4-a358-7353cee757cf"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Para la Cobertura de Enfermedades Graves (EG):]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="532" width="539" height="12" uuid="2d14e5b3-dbb9-49a9-b71f-b75463ba6b6c"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[-&nbsp;&nbsp;&nbsp;&nbsp;Para el Evento de Accidente Cerebrovascular:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="553" width="539" height="12" uuid="2ddb1111-2458-4baa-b614-aaa5a3282082"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[-&nbsp;&nbsp;&nbsp;&nbsp;Para Cáncer:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="593" width="539" height="12" uuid="525488e8-5616-4bca-a22f-1cdc6d80b94c"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[-&nbsp;&nbsp;&nbsp;&nbsp;Para Insuficiencia Renal Crónica:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="613" width="539" height="12" uuid="37bf1379-31d1-4270-9258-086dbe33a5cf"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[-&nbsp;&nbsp;&nbsp;&nbsp;Para todas las anteriores:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="26" y="542" width="528" height="12" uuid="bf39def6-a3a7-4fa1-9e99-e488b3567974"/>
+				<textElement markup="styled">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<li>   Accidente isquémico transitorio (AIT)</li>"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="26" y="563" width="528" height="12" uuid="726a24e9-d1ef-46d5-933b-8d98b0b347d2"/>
+				<textElement markup="styled">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<li>   Carcinoma cervicouterino in situ o condiciones premalignas.</li>"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="26" y="573" width="528" height="12" uuid="9150c72c-5795-44bf-b8c5-ddc701ce302e"/>
+				<textElement markup="styled">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<li>   Cáncer de piel, con excepción del melanoma.</li>"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="26" y="583" width="528" height="12" uuid="9ffd9096-451e-4833-9aaa-03e92ea48223"/>
+				<textElement markup="styled">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<li>   Cualquier tipo de cáncer relacionado con VIH / SIDA.</li>"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="26" y="603" width="528" height="12" uuid="ba070e07-af4b-4210-a6fe-8ce7ec99df49"/>
+				<textElement markup="styled">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<li>   Falla renal reversible o temporal que se resuelva luego de algún tiempo de tratamiento.</li>"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="26" y="623" width="528" height="12" uuid="7958a780-58af-43f8-b65d-184e1abc247d"/>
+				<textElement markup="styled">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<li>   La indemnización no aplica si el primer diagnóstico ocurre o se establece antes del inicio de vigencia de la póliza.</li>"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="26" y="633" width="528" height="12" uuid="a93230e4-9eb6-496e-88ff-964a24e45916"/>
+				<textElement markup="styled">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<li>   Condiciones pre-existentes, entendiéndose por tales aquellas que el asegurado padeciere con anterioridad a la fecha de inicio.</li>"]]></textFieldExpression>
+			</textField>
+			<image hAlign="Center">
+				<reportElement x="1" y="30" width="552" height="311" uuid="c31545f2-8709-431c-8aa8-bfe5d94cc6b9"/>
+				<imageExpression><![CDATA[$P{cobertura_documentos_img}]]></imageExpression>
+			</image>
+		</band>
+	</detail>
+</jasperReport>

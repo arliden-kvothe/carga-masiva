@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="diamante_template" pageWidth="612" pageHeight="1008" columnWidth="572" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b1fcc3af-299b-467e-a52c-b4878983d823">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="395"/>
+	<property name="ireport.background.image" value="C:\Users\Martín Bárcena\workspace\ireports\atlas\firma.png"/>
+	<property name="ireport.background.image.properties" value="false,true,0.25,0,0,0,0,0,0"/>
+	<style name="Title" fontName="Arial" fontSize="26" isBold="true" pdfFontName="Helvetica-Bold"/>
+	<style name="SubTitle" forecolor="#666666" fontName="Arial" fontSize="18"/>
+	<style name="Column header" forecolor="#666666" fontName="Arial" fontSize="12" isBold="true"/>
+	<style name="Detail" fontName="Arial" fontSize="12"/>
+	<style name="table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#FFFFFF"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#FFFFFF"/>
+			<bottomPen lineWidth="0.5" lineColor="#FFFFFF"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#FFFFFF"/>
+			<bottomPen lineWidth="0.5" lineColor="#FFFFFF"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#FFFFFF"/>
+			<bottomPen lineWidth="0.5" lineColor="#FFFFFF"/>
+		</box>
+	</style>
+	<style name="table 1">
+		<box>
+			<pen lineWidth="1.0" lineColor="#FFFFFF"/>
+		</box>
+	</style>
+	<style name="table 1_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#FFFFFF"/>
+			<bottomPen lineWidth="0.5" lineColor="#FFFFFF"/>
+		</box>
+	</style>
+	<style name="table 1_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#FFFFFF"/>
+			<bottomPen lineWidth="0.5" lineColor="#FFFFFF"/>
+		</box>
+	</style>
+	<style name="table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#FFFFFF"/>
+			<bottomPen lineWidth="0.5" lineColor="#FFFFFF"/>
+		</box>
+	</style>
+	<style name="table 2">
+		<box>
+			<pen lineWidth="1.0" lineColor="#FFFFFF"/>
+		</box>
+	</style>
+	<style name="table 2_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#FFFFFF"/>
+		</box>
+	</style>
+	<style name="table 2_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#FFFFFF"/>
+		</box>
+	</style>
+	<style name="table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#FFFFFF"/>
+		</box>
+	</style>
+	<style name="table 3">
+		<box>
+			<pen lineWidth="1.0" lineColor="#FFFFFF"/>
+		</box>
+	</style>
+	<style name="table 3_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#FFFFFF"/>
+		</box>
+	</style>
+	<style name="table 3_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#FFFFFF"/>
+		</box>
+	</style>
+	<style name="table 3_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#FFFFFF"/>
+		</box>
+	</style>
+	<style name="table 4">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_1_TH" mode="Opaque" backcolor="#DDD9C4">
+		<box>
+			<topPen lineWidth="1.0"/>
+			<leftPen lineWidth="1.0"/>
+			<bottomPen lineWidth="1.0"/>
+			<rightPen lineWidth="0.0"/>
+		</box>
+	</style>
+	<style name="table 5_2_TH" mode="Opaque" backcolor="#DDD9C4">
+		<box>
+			<topPen lineWidth="1.0"/>
+			<leftPen lineWidth="0.0"/>
+			<bottomPen lineWidth="1.0"/>
+			<rightPen lineWidth="0.0"/>
+		</box>
+	</style>
+	<style name="table 5_3_TH" mode="Opaque" backcolor="#DDD9C4">
+		<box>
+			<topPen lineWidth="1.0"/>
+			<leftPen lineWidth="0.0"/>
+			<bottomPen lineWidth="1.0"/>
+			<rightPen lineWidth="0.0"/>
+		</box>
+	</style>
+	<style name="table 5_4_TH" mode="Opaque" backcolor="#DDD9C4">
+		<box>
+			<topPen lineWidth="1.0"/>
+			<leftPen lineWidth="0.0"/>
+			<bottomPen lineWidth="1.0"/>
+			<rightPen lineWidth="1.0"/>
+		</box>
+	</style>
+	<style name="table 5_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<topPen lineWidth="1.0"/>
+			<leftPen lineWidth="1.0"/>
+			<bottomPen lineWidth="1.0"/>
+			<rightPen lineWidth="1.0"/>
+		</box>
+	</style>
+	<subDataset name="Table Dataset 1" uuid="c8dcb46c-d4b8-4ba3-afe1-65ef067f07c8"/>
+	<subDataset name="Table Dataset 2" uuid="108e6f52-d392-4982-9fd2-057cf576d6e2"/>
+	<subDataset name="Table Dataset 3" uuid="efd2bbf8-c593-46c3-a6ed-b0558217dc0e"/>
+	<subDataset name="Table Dataset 4" uuid="f8e68436-ba74-44aa-a8d3-97345285023d"/>
+	<field name="domicilio" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="CITY" class="java.lang.String"/>
+	<field name="numeroPoliza" class="java.lang.String"/>
+	<field name="numeroCertificado" class="java.lang.String"/>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<detail>
+		<band height="549" splitType="Stretch">
+			<componentElement>
+				<reportElement key="table 1" style="table 1" x="0" y="0" width="553" height="180" uuid="defe8d58-1a31-456c-a4ae-7667e800797d"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="Table Dataset 1" uuid="9b1680f3-48f4-4715-b628-6da75f2102c2">
+						<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.JREmptyDataSource()]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="200" uuid="fa4f0377-595a-472a-a924-aa09dac41512">
+						<jr:detailCell style="table 1_TD" height="132" rowSpan="1">
+							<componentElement>
+								<reportElement key="table" style="table" x="0" y="4" width="200" height="20" uuid="0655de52-a2fd-4e2f-b5dc-cc1b1c0b2377"/>
+								<jr:table>
+									<datasetRun subDataset="Table Dataset 1" uuid="49165844-5db0-45db-baf9-d52b37ad7b14">
+										<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.JREmptyDataSource(1)]]></dataSourceExpression>
+									</datasetRun>
+									<jr:column width="106" uuid="0f129530-21b2-4644-bbed-e0b02730ba0e">
+										<jr:detailCell style="table_TD" height="20" rowSpan="1">
+											<staticText>
+												<reportElement x="0" y="0" width="106" height="20" uuid="85892248-7f4a-4e6b-bf02-6478be28fcc8"/>
+												<textElement>
+													<font fontName="Arial" size="9" isBold="true"/>
+												</textElement>
+												<text><![CDATA[No. de Cliente Modelo:]]></text>
+											</staticText>
+										</jr:detailCell>
+									</jr:column>
+									<jr:column width="90" uuid="db92afec-78f3-4f39-a36f-52be7fe90dad">
+										<jr:detailCell style="table_TD" height="20" rowSpan="1">
+											<textField isBlankWhenNull="true">
+												<reportElement x="0" y="0" width="90" height="20" uuid="46acece6-e90c-4f9e-8c5b-30e94be4050f"/>
+												<textElement>
+													<font fontName="Arial" size="9" isBold="true"/>
+												</textElement>
+											</textField>
+										</jr:detailCell>
+									</jr:column>
+								</jr:table>
+							</componentElement>
+							<componentElement>
+								<reportElement key="table" style="table" x="0" y="24" width="200" height="20" uuid="b3846e66-4958-4001-942c-adae57f88f2c"/>
+								<jr:table>
+									<datasetRun subDataset="Table Dataset 1" uuid="cf9c7086-5c3d-4a02-bf43-9ba83388ccee">
+										<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.JREmptyDataSource(1)]]></dataSourceExpression>
+									</datasetRun>
+									<jr:column width="56" uuid="7d96afc1-df7b-40d0-906a-245a117b3ed6">
+										<jr:detailCell style="table_TD" height="20" rowSpan="1">
+											<staticText>
+												<reportElement x="0" y="0" width="48" height="20" uuid="45dd8010-53dd-415d-90f0-4257dec1bc3c"/>
+												<textElement>
+													<font fontName="Arial" size="9" isBold="true"/>
+												</textElement>
+												<text><![CDATA[Categoría:]]></text>
+											</staticText>
+										</jr:detailCell>
+									</jr:column>
+									<jr:column width="90" uuid="f8f2a2f1-75fd-4b74-a34d-b434b39c110b">
+										<jr:detailCell style="table_TD" height="20" rowSpan="1">
+											<staticText>
+												<reportElement x="0" y="0" width="90" height="20" uuid="57f2b9a7-49c4-4bd9-a140-b25a459df28d"/>
+												<textElement>
+													<font fontName="Arial" size="9"/>
+												</textElement>
+												<text><![CDATA[Diamante]]></text>
+											</staticText>
+										</jr:detailCell>
+									</jr:column>
+								</jr:table>
+							</componentElement>
+							<componentElement>
+								<reportElement key="table 2" style="table 2" x="0" y="66" width="200" height="20" forecolor="#FF0000" backcolor="#FF0000" uuid="a7c1d90d-939d-432b-bc43-b9eb2ba1737f"/>
+								<jr:table>
+									<datasetRun subDataset="Table Dataset 3" uuid="85d5337e-c43d-4706-8fb3-ba1e346de0b0">
+										<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.JREmptyDataSource(1)]]></dataSourceExpression>
+									</datasetRun>
+									<jr:column width="186" uuid="e6160c13-1cc6-4059-b907-ffe718bc09e1">
+										<jr:detailCell style="table 2_TD" height="18" rowSpan="1">
+											<staticText>
+												<reportElement x="0" y="0" width="186" height="18" forecolor="#FF0000" backcolor="#FFFFFF" uuid="9d363ee1-8152-421e-9cb4-abc5b5e4de46"/>
+												<textElement>
+													<font fontName="Arial" size="9" isBold="true"/>
+												</textElement>
+												<text><![CDATA[Consentimiento-Certificado:]]></text>
+											</staticText>
+										</jr:detailCell>
+									</jr:column>
+								</jr:table>
+							</componentElement>
+							<componentElement>
+								<reportElement key="table 3" style="table 3" x="0" y="86" width="200" height="20" uuid="4f88948e-977d-46fb-b136-28cc05a9e8eb"/>
+								<jr:table>
+									<datasetRun subDataset="Table Dataset 4" uuid="69f8ae56-b41d-42eb-8168-8dc4481c685c">
+										<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.JREmptyDataSource(1)]]></dataSourceExpression>
+									</datasetRun>
+									<jr:column width="186" uuid="46f890b2-8ebc-440e-a6bc-610b83fd9696">
+										<jr:detailCell style="table 3_TD" height="20" rowSpan="1">
+											<staticText>
+												<reportElement x="0" y="0" width="186" height="20" uuid="6d1d0f5f-b452-46d5-804c-c18b1c0b9b70"/>
+												<textElement>
+													<font fontName="Arial" isBold="true"/>
+												</textElement>
+												<text><![CDATA[Microseguro de Indemnización Quirúrgica]]></text>
+											</staticText>
+										</jr:detailCell>
+									</jr:column>
+								</jr:table>
+							</componentElement>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="395" uuid="71223ac7-d4a9-4a0c-a0e6-74dc2714b0c2">
+						<jr:detailCell height="132" rowSpan="1">
+							<image hAlign="Right">
+								<reportElement x="0" y="0" width="355" height="106" uuid="1a9fe29b-8238-43f4-965b-1cb76b377a2e"/>
+								<imageExpression><![CDATA["C:\\Users\\Martín Bárcena\\workspace\\ireports\\atlas\\atlas-logo.png"]]></imageExpression>
+							</image>
+							<staticText>
+								<reportElement x="0" y="116" width="355" height="14" uuid="1b94efe4-408f-42f0-8ca6-88f79be8f307"/>
+								<textElement textAlignment="Right">
+									<font fontName="Arial" size="7"/>
+								</textElement>
+								<text><![CDATA[Tel.: (55) 9177-50-00  Fax: 91-77-51-10   www.segurosatlas.com.mx    segatlas@segurosatlas.com.mx]]></text>
+							</staticText>
+							<staticText>
+								<reportElement x="0" y="107" width="355" height="10" uuid="1927d53b-15ba-4e75-93c5-5711ba8f9547"/>
+								<textElement textAlignment="Right">
+									<font fontName="Arial" size="7"/>
+								</textElement>
+								<text><![CDATA[Seguros Atlas, S.A. Paseo de los Tamarindos No. 60, Col. Bosques de las Lomas C.P. 05120 México, D.F.]]></text>
+							</staticText>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<textField isBlankWhenNull="false">
+				<reportElement mode="Opaque" x="0" y="132" width="553" height="20" backcolor="#DDD9C4" uuid="8ce2994c-6e08-4190-a553-fb5df7febe64"/>
+				<box leftPadding="4">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["I. DATOS DEL CONTRATANTE"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="152" width="194" height="15" uuid="240673f6-9533-4edb-8a88-d6e287a4f860"/>
+				<box leftPadding="4">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Nombre o Razón Social"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="194" y="152" width="126" height="15" uuid="f7feb3dc-0e92-40a9-9b1f-c3173981cb83"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Vigencia de la póliza"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="320" y="152" width="126" height="15" uuid="e4c1d239-3538-4fd5-a1cf-d650ca8fe333"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Inicio de Vigencia del certificado"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="446" y="152" width="107" height="15" uuid="18f5e255-57e3-4567-a414-7a343037cfc5"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Forma de pago de la prima"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="0" y="167" width="194" height="20" uuid="4f672c6c-5c6f-4cf6-ba68-6737cdecf60c"/>
+				<box leftPadding="4">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Razón social de la Agencia Matriz Contratante"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="194" y="167" width="126" height="20" uuid="cf3ea5ce-553b-422a-902c-02770110cedc"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Ver Punto (1) Condiciones Adicionales"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="320" y="167" width="126" height="20" uuid="931b955e-de7f-4c33-90b2-4125d60883be"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Ver Punto (1) Condiciones Adicionales"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="446" y="167" width="107" height="20" uuid="ffb719bd-6429-4d30-a950-d86d97103156"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="187" width="351" height="15" uuid="375f69d3-bd26-4ead-b8a3-00f66d0ba96d"/>
+				<box leftPadding="4">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Domicilio"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="351" y="187" width="95" height="15" uuid="e8eecce7-9151-4157-9f23-e67b1b1330ef"/>
+				<box leftPadding="4">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Número de la póliza"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="446" y="187" width="107" height="15" uuid="006165ae-0da5-4fb1-97d0-1de44048b1e4"/>
+				<box leftPadding="4">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Número de certiicado"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="0" y="202" width="351" height="15" uuid="50e7bed5-6d2c-4867-a7d8-bcb4643d38d5"/>
+				<box leftPadding="4">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{domicilio}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="351" y="202" width="95" height="15" uuid="8ed778a3-c1e8-43d0-b2c4-671fe1a5834f"/>
+				<box leftPadding="4">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{numeroPoliza}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="446" y="202" width="107" height="15" uuid="68f121c9-be2e-484a-8600-dc030e633f5d"/>
+				<box leftPadding="4">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{numeroCertificado}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="false">
+				<reportElement mode="Opaque" x="0" y="221" width="553" height="20" backcolor="#DDD9C4" uuid="5d229054-5668-4dcf-b544-397af9e8d8cc"/>
+				<box leftPadding="4">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["TABLA DE COBERTURAS"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="271" width="552" height="17" uuid="9b1bab81-0a23-4949-bb6b-1f4e1d4db8a8"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[* La Familia Asegurada se compone del cónyuge e hijos hasta 24 años de edad.]]></text>
+			</staticText>
+			<textField isBlankWhenNull="false">
+				<reportElement mode="Opaque" x="0" y="288" width="553" height="20" backcolor="#DDD9C4" uuid="d7ec22d4-2f3d-45cc-b62d-69e75cff1079"/>
+				<box leftPadding="4">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["II. DATOS DE LAS PERSONAS A ASEGURAR"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="0" y="308" width="52" height="23" backcolor="#DDD9C4" uuid="2abc9be8-cefe-47b1-8f37-4e14ce7ffa9f"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Parentesco"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="52" y="308" width="128" height="23" backcolor="#DDD9C4" uuid="be03b4b3-cdba-428b-b197-b4e0e21987ed"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Apellido Paterno"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="180" y="308" width="128" height="23" backcolor="#DDD9C4" uuid="278de40f-802b-466d-addd-71e65b76d298"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Apellido Materno"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="308" y="308" width="128" height="23" backcolor="#DDD9C4" uuid="74f4c073-5d0e-4b95-b287-726af05699e2"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Nombre(s)"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="RelativeToBandHeight" mode="Opaque" x="436" y="308" width="38" height="23" backcolor="#DDD9C4" uuid="9eb0851f-4e15-48a9-b7d9-7ee6c8e5b07d"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Género (M/F)"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="RelativeToBandHeight" mode="Opaque" x="474" y="308" width="79" height="23" backcolor="#DDD9C4" uuid="f9e03626-ad71-46f6-93e7-484a7a340300"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Fecha de Nacimiento dd/mm/aa"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Transparent" x="0" y="331" width="52" height="15" backcolor="#FFFFFF" uuid="f9a1688b-9f39-48b6-9c28-8706f66a0e73"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Titular"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Transparent" x="0" y="346" width="52" height="15" backcolor="#FFFFFF" uuid="caebfa0e-bce6-41d4-a858-9f370d689a9f"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Cónyuge"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Transparent" x="52" y="331" width="128" height="15" backcolor="#FFFFFF" uuid="3fd58b34-94ed-4fb1-aab8-5589fd2d794e"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Transparent" x="52" y="346" width="128" height="15" backcolor="#FFFFFF" uuid="bf0668cd-e84c-4191-92d4-3ab580cf2626"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Transparent" x="180" y="331" width="128" height="15" backcolor="#FFFFFF" uuid="3214e1f0-31dd-40ce-af10-da176d35be04"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Transparent" x="180" y="346" width="128" height="15" backcolor="#FFFFFF" uuid="619d5d47-23e4-46b1-ac3b-6e3c1265d592"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Transparent" x="308" y="331" width="128" height="15" backcolor="#FFFFFF" uuid="a40f9383-b934-402a-bd12-b2d6d678ea4e"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Transparent" x="308" y="346" width="128" height="15" backcolor="#FFFFFF" uuid="68874d3a-4f40-42c9-965f-1aa05a19b27a"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Transparent" x="436" y="331" width="38" height="15" backcolor="#FFFFFF" uuid="f072b351-015c-4863-b82c-356535c00c8f"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Transparent" x="436" y="346" width="38" height="15" backcolor="#FFFFFF" uuid="9c365f2b-e16c-4d09-8154-d6e50d4321ea"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Transparent" x="474" y="331" width="79" height="15" backcolor="#FFFFFF" uuid="08a33da1-5ad6-438d-baff-c010f53a9a73"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Transparent" x="474" y="346" width="79" height="15" backcolor="#FFFFFF" uuid="22993568-6cba-40d1-b25e-f0ac89de017e"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Transparent" x="0" y="361" width="52" height="15" backcolor="#FFFFFF" uuid="f3cd9f51-33e3-45da-81f1-9a4a2bc9cf96"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Hijos..."]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Transparent" x="52" y="361" width="128" height="15" backcolor="#FFFFFF" uuid="6fb37988-cd58-4411-bda6-daa5ef14d682"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Transparent" x="180" y="361" width="128" height="15" backcolor="#FFFFFF" uuid="b81e9ca4-9a54-48c3-8aed-0a5020082a0f"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Transparent" x="308" y="361" width="128" height="15" backcolor="#FFFFFF" uuid="638fbab0-f2c0-417b-8d9b-5ceca947ba48"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Transparent" x="436" y="361" width="38" height="15" backcolor="#FFFFFF" uuid="ac3c6fad-d42f-4335-b169-99359300e052"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Transparent" x="474" y="361" width="79" height="15" backcolor="#FFFFFF" uuid="0d7f060f-3c1b-4ce7-9916-d5235b312a42"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement stretchType="RelativeToBandHeight" x="1" y="382" width="552" height="65" uuid="a37c0076-ed22-4179-bc4b-d26b02de32ea"/>
+				<box leftPadding="4">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[<b>ADVERTENCIA:</b> En el caso de que se desee nombrar beneficiarios a menores de edad, no se debe señalar a un mayor de edad como representante de los menores para efecto de que, en su representación, cobre la indemnización. Lo  anterior  porque  las  legislaciones  civiles  previenen  la  forma  en  que debe  designarse  tutores,  albaceas,  representantes  de  herederos  u  otros cargos   similares   y   no   consideran   al   contrato   de   seguro   como   el instrumento adecuado para tales designaciones.  La designación que se hiciera de un mayor de  edad como representante de menores beneficiarios, durante la minoría de edad de ellos, legalmente puede  implicar  que  se  nombra  beneficiario  al  mayor  de  edad,  quien  en todo  caso  sólo  tendría  una  obligación  moral,  pues  la  designación  que  se hace  de  beneficiarios  en  un  contrato  de  seguro  le  concede  el  derecho incondicionado de disponer de la suma asegurada.]]></text>
+			</staticText>
+			<textField isBlankWhenNull="false">
+				<reportElement mode="Opaque" x="0" y="452" width="553" height="16" backcolor="#DDD9C4" uuid="2639a960-8732-44dc-995f-9f53cee5791f"/>
+				<box leftPadding="4">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Designación de Beneficiarios (Asegurado Titular)"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="0" y="468" width="147" height="23" backcolor="#DDD9C4" uuid="2e45db4d-55ef-4eb5-afda-9a9fc006313f"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Apellido Paterno"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="147" y="468" width="147" height="23" backcolor="#DDD9C4" uuid="e2a55610-3fe6-4ec2-b06e-cd317eb53fe4"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Apellido Materno"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="294" y="468" width="147" height="23" backcolor="#DDD9C4" uuid="38e3159d-6a9e-46fa-abee-f6865d907353"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Nombre(s)"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="498" y="468" width="55" height="23" backcolor="#DDD9C4" uuid="eb46bf88-1706-445d-bd02-d8a8d3ccd2f9"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Parentesco"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="441" y="468" width="57" height="23" backcolor="#DDD9C4" uuid="b09b87f0-5442-4e2c-8a0e-2acfeb9301f3"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Porcentaje"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Transparent" x="0" y="491" width="147" height="15" backcolor="#FFFFFF" uuid="ec3b2e3f-f162-47d0-9ea0-5ffa2f797aac"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Transparent" x="147" y="491" width="147" height="15" backcolor="#FFFFFF" uuid="116f2586-3ea1-4fe0-8b06-d32e13d95761"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Transparent" x="294" y="491" width="147" height="15" backcolor="#FFFFFF" uuid="85df4fcb-2dc4-4ffd-9969-71e60d1e3568"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Transparent" x="441" y="491" width="57" height="15" backcolor="#FFFFFF" uuid="affe45ee-631f-4d16-a4b1-fbbcb35f1fd7"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Transparent" x="498" y="491" width="55" height="15" backcolor="#FFFFFF" uuid="d0ca8fb4-63cc-48f0-8cfe-4f208edda92b"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="390" splitType="Stretch">
+			<image>
+				<reportElement x="445" y="142" width="160" height="58" uuid="69e02c31-004c-4f1f-9bf1-50ac5496a511"/>
+				<imageExpression><![CDATA["C:\\Users\\Martín Bárcena\\workspace\\ireports\\atlas\\firma.png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="423" y="243" width="115" height="33" uuid="84865b5e-a58a-4292-80cb-07c3c9bd1ab9"/>
+				<imageExpression><![CDATA["C:\\Users\\Martín Bárcena\\workspace\\ireports\\atlas\\paralife-logo.png"]]></imageExpression>
+			</image>
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="3" width="555" height="1" uuid="5a1f174e-c923-4d88-a074-c214a5674daa"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<textField isBlankWhenNull="false">
+				<reportElement mode="Opaque" x="0" y="4" width="553" height="20" backcolor="#DDD9C4" uuid="b7db323f-56f4-4217-89fa-fea26dcefcb8"/>
+				<box leftPadding="4">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["ATENCIÓN. INDISPENSABLE LEER ANTES DE FIRMAR"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="false">
+				<reportElement mode="Opaque" x="0" y="24" width="553" height="14" backcolor="#DDD9C4" uuid="846d880f-67ff-4358-b2be-7631a6a37133"/>
+				<box leftPadding="4">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Condiciones Adicionales"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement stretchType="RelativeToBandHeight" x="0" y="38" width="553" height="70" uuid="f1a9e021-c658-44d9-abe0-44bddc5d509a"/>
+				<box leftPadding="4">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[(1) Siempre y cuando la prima este pagada y la cobertura vigente.<br>
+(2) En este acto solicito a Marketing Modelo, S.A. de C.V.  y para tal efecto le otorgo poder bastante y suficiente para contratar la póliza de seguro cuyas características se mencionan en la presente solicitud.<br>
+(3) Acepto que este seguro tiene cobertura anual con renovación automática por un periodo igual mediante el pago que el contratante efectúe a la Compañía de Seguros.<br>
+(4) Firmando el presente certificado reconozco y acepto que la adquisición de este seguro no genera subordinación alguna con Marketing Modelo, S.A. de C.V. contratante de la póliza, ni con Seguros Atlas, S.A. y ParaLife México, S.A. de C.V.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="108" width="552" height="20" uuid="27e6583a-6ccb-4c1b-81b2-7bfaa88928e7"/>
+				<box leftPadding="4">
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Por este conducto declaro y acepto que todos los datos e informes proporcionados en la presente propuesta son verídicos, están completos y se consideran importantes para conocer el riesgo del contrato propuesto y por lo tanto, servirán de base para la celebración del mismo.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="128" width="55" height="14" uuid="c7cebf61-67d7-4855-93ec-d71125cf8066"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[Firmado en]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="273" y="128" width="16" height="14" uuid="e6e71d75-efa2-46f6-9261-79e109c2c922"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[, a]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="340" y="128" width="16" height="14" uuid="db27b40d-ac57-4ffd-822b-7692b29bcd94"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[ de]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="438" y="128" width="16" height="14" uuid="a2c68f38-6b60-4a29-a807-5d1624c4d57e"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[ de]]></text>
+			</staticText>
+			<line>
+				<reportElement x="56" y="139" width="216" height="1" uuid="ab6f23d9-26c9-4f5f-b702-30f312948c85"/>
+			</line>
+			<line>
+				<reportElement x="289" y="139" width="50" height="1" uuid="0b3d802b-9905-4603-863d-c0c7c4449f2e"/>
+			</line>
+			<line>
+				<reportElement x="356" y="139" width="82" height="1" uuid="28b59f91-3e31-4658-b880-9c6c8ea2b17c"/>
+			</line>
+			<line>
+				<reportElement x="454" y="139" width="50" height="1" uuid="3d4e260a-d7b7-4dff-b422-441bbf937842"/>
+			</line>
+			<textField>
+				<reportElement mode="Transparent" x="1" y="187" width="240" height="15" backcolor="#FFFFFF" uuid="77292404-e2a3-4fe2-9024-71ab7b0234be"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Firma del Contratante"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="1" y="213" width="553" height="29" uuid="3f9a43b7-3ad9-4d6f-8d1e-a7d1b3fde907"/>
+				<box leftPadding="4">
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="false" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[La documentación contractual y la nota técnica que integran este producto, están registrados ante la Comisión Nacional de Seguros y Fianzas, de conformidad  con lo dispuesto por los artículos 36,36-A, 36-B y 36-D de la Ley General de Instituciones y Sociedades Mutualistas de Seguros, bajo el Contrato de No Adhesión de fecha: 15/04/2014.]]></text>
+			</staticText>
+			<textField>
+				<reportElement mode="Transparent" x="261" y="187" width="150" height="14" backcolor="#FFFFFF" uuid="bc33b12a-925a-4ec2-9b4a-1bc665dc892c"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Firma del Asegurado Titular"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Transparent" x="423" y="187" width="130" height="15" backcolor="#FFFFFF" uuid="c9a83f96-fc64-40a9-a4e3-4515916fd1be"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Firma autorizada"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="262" y="200" width="150" height="13" uuid="db5e87bb-7c9c-418d-b394-d0885e55a6c0"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Arial" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[(en caso de que sea distinto al Contratante)]]></text>
+			</staticText>
+			<line>
+				<reportElement x="1" y="242" width="553" height="1" uuid="f2082c00-e647-4770-a6cb-a38d5357329d"/>
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="271" y="244" width="150" height="29" uuid="84e1f0c1-68d0-447d-a8e0-03ed4d093cac"/>
+				<box leftPadding="4">
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Programa Administrado por ParaLife México, S.A. de C.V.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToBandHeight" x="1" y="276" width="553" height="70" uuid="616305b6-bc61-4d14-b896-e514b0698a03"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[<b>AVISO DE PRIVACIDAD</b>. Paralife México, S.A. de C.V., con domicilio en Boulevard Adolfo López Mateos número 2459 primer piso, Colonia Atlamaya, Delegación Álvaro Obregón en el Distrito Federal, es responsable de recabar sus datos personales, del uso que se le dé a los mismos y de su protección.<br>
+Paralife México, S.A. de C.V., podrá recabar de usted los siguientes datos personales: nombre completo, domicilio, RFC, teléfono, teléfono celular, correo electrónico, CURP, fecha de nacimiento.<br>
+Sus datos personales serán utilizados para las siguientes finalidades: (i) proveer los servicios y productos requeridos por usted; (ii) informar sobre cambios o nuevos productos o servicios que estén relacionados con el contratado o adquirido por el cliente; (iii) dar cumplimiento a obligaciones contraídas con nuestros clientes; (iv) evaluar la calidad del servicio; (v) realizar estudios internos sobre hábitos de consumo.<br>
+Para mayor información acerca del tratamiento y de los derechos que puede hacer valer, usted puede acceder al aviso de privacidad completo a través de nuestra página de Internet: http://www.paralife.com, en la sección de aviso de privacidad.]]></text>
+			</staticText>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="29" splitType="Stretch">
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement style="Column header" x="0" y="0" width="488" height="20" forecolor="#000000" uuid="5b3b8f49-eed8-4743-850f-eede6de2bca1"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["En caso de duda o reporte de siniestros llamar al: 01 800 237 6728"]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>
